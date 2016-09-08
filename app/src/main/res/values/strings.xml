@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JoeLog</string>
+    <string name="log_title_hint">请输入日志名称...</string>
+    <string name="log_fragment_title">标题:</string>
+    <string name="log_fragment_detail">日志内容</string>
+    <string name="log_checkbox_done">已完成？</string>
+    <string name="log_joe_title">Joe的日志</string>
+    <string name="log_item_title">日志名称</string>
+    <string name="log_item_time">日志时间</string>
+    <string name="date_picker_title">日期选择</string>
+    <string name="new_log">创建新日志</string>
+    <string name="show_subtitle">显示</string>
+    <string name="hide_subtitle">隐藏</string>
+    <string name="subtitle">看了了什么么？</string>
+    <string name="delete_log">删除日志</string>
+
+
+    <string name="action_delete">删除</string>
+    <string name="action_add">添加</string>
+    <string name="action_share">分享</string>
+    <string name="text_hint">请输入图案</string>
+    <string name="fragment_ok">确定</string>
+    <string name="action_photo">拍照</string>
+    <string name="action_upload">上传至Bmob</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/list"
+                android:background="@drawable/background_activated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <com.xidian.joe.joelog.View.JoeListItemView
+        android:id="@+id/log_list_item_titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textSize="20sp"
+        android:paddingRight="4dp"
+        android:text="@string/log_item_title"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/log_list_item_dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/log_list_item_titleTextView"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/log_item_time"/>
+
+</RelativeLayout>
